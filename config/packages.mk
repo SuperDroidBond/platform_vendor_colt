@@ -1,6 +1,6 @@
 # Required packages
 PRODUCT_PACKAGES += \
-    Messaging \
+    messaging \
     Turbo
 
 # Extra tools

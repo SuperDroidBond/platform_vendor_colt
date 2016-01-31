@@ -59,6 +59,9 @@ EXCLUDE_SYSTEMUI_TESTS := true
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/colt/overlay/common
 
+# Include LatinIME dictionaries
+PRODUCT_PACKAGE_OVERLAYS += vendor/colt/overlay/dictionaries
+
 # Packages
 include vendor/colt/config/packages.mk
 

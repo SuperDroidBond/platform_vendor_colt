@@ -77,3 +77,6 @@ include vendor/colt/config/colt.mk
 
 # Bootanimation
 include vendor/colt/config/bootanimation.mk
+
+# include definitions for SDCLANG
+include vendor/colt/sdclang/sdclang.mk

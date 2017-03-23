@@ -15,4 +15,8 @@ PRODUCT_COPY_FILES += \
 
 # SIM Toolkit
 PRODUCT_PACKAGES += \
-Stk
+    Stk
+
+# Sensitive Phone Numbers list
+PRODUCT_COPY_FILES += \
+    vendor/colt/prebuilt/common/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml

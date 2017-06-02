@@ -78,5 +78,9 @@ include vendor/colt/config/colt.mk
 # Bootanimation
 include vendor/colt/config/bootanimation.mk
 
-# include definitions for SDCLANG
-include vendor/colt/sdclang/sdclang.mk
+# Include SDCLANG definitions if it is requested and available
+ifeq ($(HOST_OS),linux)
+    ifneq ($(wildcard vendor/qcom/sdclang-3.8/),)
+        include vendor/colt/sdclang/sdclang.mk
+    endif
+endif

@@ -1,0 +1,7 @@
+bootstrap_go_package {
+    name: "soong-colt",
+    pkgPath: "colt/soong/android",
+    srcs: [
+        "android/variable.go",
+    ],
+}

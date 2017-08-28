@@ -1,7 +1,5 @@
 # Required packages
 PRODUCT_PACKAGES += \
-    Basic \
-    LatinIME \
     Turbo
 
 # Extra tools

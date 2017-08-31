@@ -41,6 +41,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/colt/prebuilt/common/etc/mkshrc:system/etc/mkshrc
 
+# Fix Dialer
+PRODUCT_COPY_FILES +=  \
+    vendor/colt/prebuilt/common/sysconfig/dialer_experience.xml:system/etc/sysconfig/dialer_experience.xml 
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/colt/overlay/common
 

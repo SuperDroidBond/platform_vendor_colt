@@ -41,6 +41,9 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/colt/prebuilt/common/etc/mkshrc:system/etc/mkshrc
 
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/colt/overlay/common
+
 # Packages
 include vendor/colt/config/packages.mk
 

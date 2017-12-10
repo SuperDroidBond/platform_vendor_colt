@@ -67,3 +67,6 @@ include vendor/colt/config/packages.mk
 
 # ColtVersion
 include vendor/colt/config/colt.mk
+
+# Bootanimation
+include vendor/colt/config/bootanimation.mk

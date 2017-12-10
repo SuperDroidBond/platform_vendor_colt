@@ -1,3 +1,4 @@
 #Colt Devices Bring in
-add_lunch_combo colt_tomato-userdebug
-add_lunch_combo colt_mako-userdebug
+for f in $(cat vendor/colt/colt.devices); do
+    add_lunch_combo colt_$f-userdebug;
+done

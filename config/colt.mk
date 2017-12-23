@@ -55,3 +55,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.stock
 
+# ColtOS New Fonts
+PRODUCT_COPY_FILES += \
+    vendor/colt/prebuilt/fonts/gobold/Gobold.ttf:system/fonts/Gobold.ttf \
+    vendor/colt/prebuilt/fonts/gobold/Gobold-Italic.ttf:system/fonts/Gobold-Italic.ttf \
+    vendor/colt/prebuilt/fonts/gobold/GoboldBold.ttf:system/fonts/GoboldBold.ttf \
+    vendor/colt/prebuilt/fonts/gobold/GoboldBold-Italic.ttf:system/fonts/GoboldBold-Italic.ttf \
+    vendor/colt/prebuilt/fonts/gobold/GoboldThinLight.ttf:system/fonts/GoboldThinLight.ttf \
+    vendor/colt/prebuilt/fonts/gobold/GoboldThinLight-Italic.ttf:system/fonts/GoboldThinLight-Italic.ttf

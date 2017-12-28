@@ -48,3 +48,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=$(COLT_VERSION) \
     ro.colt.version=$(VERSION)-$(COLT_BUILDTYPE) \
     ro.colt.display.version=$(COLT_VERSION)
+
+# ColtOS theme
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.boot.vendor.overlay.theme=com.google.android.theme.stock
+

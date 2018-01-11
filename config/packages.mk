@@ -52,4 +52,6 @@ PRODUCT_PACKAGES += \
     RedAccent \
     DarkRedAccent \
     YellowAccent \
-    WhiteAccent
+    WhiteAccent \
+    SluttyPinkTheme
+

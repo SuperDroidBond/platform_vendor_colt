@@ -54,4 +54,5 @@ PRODUCT_PACKAGES += \
     YellowAccent \
     WhiteAccent \
     SluttyPinkTheme
+    DarknessMeister
 

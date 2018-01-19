@@ -55,4 +55,5 @@ PRODUCT_PACKAGES += \
     WhiteAccent \
     SluttyPinkTheme
     DarknessMeister
+    SmokedGreenTheme
 

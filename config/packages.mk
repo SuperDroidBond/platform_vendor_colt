@@ -26,3 +26,7 @@ PRODUCT_BOOT_JARS += \
 +PRODUCT_PACKAGES += \
     PixelTheme \
     Stock
+
+# Packages
+PRODUCT_PACKAGES += \
+    SystemDarkTheme

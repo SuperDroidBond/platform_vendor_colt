@@ -53,7 +53,8 @@ PRODUCT_PACKAGES += \
     DarkRedAccent \
     YellowAccent \
     WhiteAccent \
-    SluttyPinkTheme
-    DarknessMeister
-    SmokedGreenTheme
+    SluttyPinkTheme \
+    DarknessMeister \
+    SmokedGreenTheme \
+    Bl4ckAndYell0Theme
 

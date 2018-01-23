@@ -29,4 +29,5 @@ PRODUCT_BOOT_JARS += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    SettingsDarkTheme \
     SystemDarkTheme

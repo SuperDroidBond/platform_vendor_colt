@@ -29,5 +29,6 @@ PRODUCT_BOOT_JARS += \
 
 # Packages
 PRODUCT_PACKAGES += \
+    DuiDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme

@@ -57,5 +57,6 @@ PRODUCT_PACKAGES += \
     DarknessMeister \
     SmokedGreenTheme \
     Bl4ckAndYell0Theme \
-    OmniTheme
+    OmniTheme \
+    GboardDarkTheme
 

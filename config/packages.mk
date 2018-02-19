@@ -30,7 +30,7 @@ PRODUCT_BOOT_JARS += \
 # Packages
 PRODUCT_PACKAGES += \
     GBoardDarkTheme \
-    DuiDarkTheme \
+    SystemUIDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme
 

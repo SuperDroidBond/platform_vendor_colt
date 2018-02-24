@@ -23,11 +23,6 @@ PRODUCT_BOOT_JARS += \
     org.dirtyunicorns.utils
 
 # Themes
-+PRODUCT_PACKAGES += \
-    PixelTheme \
-    Stock
-
-# Packages
 PRODUCT_PACKAGES += \
     GBoardDarkTheme \
     SystemUIDarkTheme \
@@ -38,7 +33,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AmberAccent \
     BlackAccent \
-    BlueAccent \
+    AquaAccent \
     BlueGreyAccent \
     BrownAccent \
     CyanAccent \
@@ -54,6 +49,6 @@ PRODUCT_PACKAGES += \
     PinkAccent \
     PurpleAccent \
     RedAccent \
-    TealAccent \
+    DarkRedAccent \
     YellowAccent \
     WhiteAccent

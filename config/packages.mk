@@ -60,7 +60,34 @@ PRODUCT_PACKAGES += \
     OmniTheme \
     FromHellTheme \
     GboardOmniTheme \
-    ZeroZeroTheme
+    ZeroZeroTheme \
+    GboardOmniTheme
+
+PRODUCT_PACKAGES += \
+    NotificationsDark \
+    NotificationsLight \
+    NotificationsPrimary
+
+PRODUCT_PACKAGES += \
+    AccentSluttyPink \
+    AccentPixel \
+    AccentGoldenShower \
+    AccentDeepOrange \
+    AccentOmni \
+    AccentWhite \
+    AccentTeal \
+    AccentFromHell \
+    AccentBlueMonday \
+    AccentSmokingGreen
+
+PRODUCT_PACKAGES += \
+    PrimaryAlmostBlack \
+    PrimaryBlack \
+    PrimaryOmni \
+    PrimaryWhite \
+    PrimaryColdWhite \
+    PrimaryWarmWhite \
+    PrimaryDarkBlue
 
 # Textclassifiers
 PRODUCT_PACKAGES += \

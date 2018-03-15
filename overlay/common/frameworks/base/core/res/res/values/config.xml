@@ -69,4 +69,9 @@
         <item>com.google.android.gms/com.google.android.gms.update.SystemUpdateService</item>
     </string-array>
 
+    <!-- System font packages (overlay in vendor) -->
+    <string-array name="config_fontPackages" translatable="false">
+        <item>com.dirtyunicorns.fonts</item>
+    </string-array>
+
 </resources>

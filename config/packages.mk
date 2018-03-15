@@ -109,3 +109,7 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     OmniStyle
 
+# Fonts
+PRODUCT_PACKAGES += \
+    Fonts
+

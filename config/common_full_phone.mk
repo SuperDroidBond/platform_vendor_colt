@@ -20,3 +20,7 @@ PRODUCT_PACKAGES += \
 # Sensitive Phone Numbers list
 PRODUCT_COPY_FILES += \
     vendor/colt/prebuilt/common/etc/sensitive_pn.xml:system/etc/sensitive_pn.xml
+
+# Keyboard
+PRODUCT_PACKAGES += \
+    LatinIME

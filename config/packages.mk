@@ -102,3 +102,10 @@ PRODUCT_PACKAGES += \
     textclassifier.smartselection.tr.model \
     textclassifier.smartselection.zh.model \
     textclassifier.smartselection.zh-Hant.model
+
+
+# Omni
+PRODUCT_PACKAGES += \
+    OmniJaws \
+    OmniStyle
+

@@ -12,9 +12,9 @@
     <color name="omni_text4">#defefefe</color>  <!-- text with "de" alpha -->
     <color name="omni_color1">#ff191919</color> <!-- PRIMARY DARK -->
     <color name="omni_color2">#ff2d2d2d</color> <!-- PRIMARY LIGHT -->
-    <color name="omni_color3">#ffaacc3e</color> <!-- ACCENT  LIGHT -->
-    <color name="omni_color4">#ff90b324</color> <!-- ACCENT  DARK -->
-    <color name="omni_color5">#ffa1c729</color> <!-- ACCENT -->
+    <color name="omni_color3">#ff1adb9b</color> <!-- ACCENT  LIGHT -->
+    <color name="omni_color4">#ff069062</color> <!-- ACCENT  DARK -->
+    <color name="omni_color5">#ff00a770</color> <!-- ACCENT -->
     <color name="omni_color6">#b3fefefe</color> <!-- WIFI ICON IN DETAILS -->
     <color name="omni_color7">#ff393939</color> <!-- FLOATING DIALOG COLOR ON VERY DARK THEMES MAKE THIS A BIT LIGHTER -->
     <color name="omni_color8">#ff52c729</color> <!-- SPECIAL (CHECK WHERE THIS IS ASSIGNED) -->

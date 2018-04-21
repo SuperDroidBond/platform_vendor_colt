@@ -37,12 +37,15 @@ type Product_variables struct {
 	}
 	Qti_flac_decoder struct {
 		Cflags []string
-    }
+        }
 	Uses_generic_camera_parameter_library struct {
 		Srcs []string
 	}
 	Use_legacy_rescaling struct {
 		Cflags []string
+        }
+	Uses_nvidia_enhancements struct {
+		Cppflags []string
 	}
 	Uses_qcom_bsp_legacy struct {
 		Cppflags []string
@@ -72,6 +75,7 @@ type ProductVariables struct {
 	Qcom_bsp_legacy         *bool `json:",omitempty"`
 	Qti_flac_decoder        *bool `json:",omitempty"`
 	Use_legacy_rescaling    *bool `json:",omitempty"`
+	Uses_nvidia_enhancements  *bool `json:",omitempty"`
 	Uses_qcom_bsp_legacy  *bool `json:",omitempty"`
 	Uses_qti_camera_device  *bool `json:",omitempty"`
 }

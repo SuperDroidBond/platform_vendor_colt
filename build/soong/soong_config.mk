@@ -18,6 +18,7 @@ colt_soong:
 	echo '    "QTIAudioPath":  "$(call project-path-for,qcom-audio)",'; \
 	echo '    "QTIDisplayPath":  "$(call project-path-for,qcom-display)",'; \
 	echo '    "QTIMediaPath":  "$(call project-path-for,qcom-media)",';  \
+	echo '    "Uses_nvidia_enhancements": $(if $(filter TRUE,$(NV_ANDROID_FRAMEWORK_ENHANCEMENTS)),true,false),'; \
 	echo '    "Uses_non_treble_camera": $(if $(filter true,$(TARGET_USES_NON_TREBLE_CAMERA)),true,false),'; \
 	echo '    "BTVendorPath": "$(call project-path-for,bt-vendor)",'; \
 	echo '    "RILPath": "$(call project-path-for,ril)",'; \

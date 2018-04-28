@@ -47,9 +47,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.colt.releasetype=$(COLT_BUILDTYPE) \
     ro.modversion=$(COLT_VERSION) \
     ro.colt.version=$(VERSION)-$(COLT_BUILDTYPE) \
-    ro.colt.display.version=$(COLT_VERSION)
+    ro.colt.display.version=$(COLT_VERSION) \
+    ro.colt.ota.version=$(COLT_VERSION)
 
 # ColtOS theme
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.stock
+
+# Colt OTA
+$(call inherit-product-if-exists, vendor/colt/config/ota.mk)
 

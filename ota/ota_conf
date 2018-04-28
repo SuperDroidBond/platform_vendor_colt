@@ -1,0 +1,8 @@
+#Common OTA url for all devices
+ota_url=https://www.dropbox.com/s/up0birm5x165dbw/colt_ota.xml?dl=1
+release_type=Stable
+device_name=ro.colt.device
+version_source=ro.colt.display.version
+version_delimiter=-
+version_position=3
+version_format=yyyyMMdd

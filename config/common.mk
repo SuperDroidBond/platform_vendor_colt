@@ -74,7 +74,7 @@ include vendor/colt/config/packages.mk
 include vendor/colt/config/colt.mk
 
 # Bootanimation
-include vendor/colt/config/bootanimation.mk
+$(call inherit-product, vendor/colt/config/bootanimation.mk)
 
 # Include SDCLANG definitions if it is requested and available
 ifeq ($(HOST_OS),linux)

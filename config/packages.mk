@@ -116,3 +116,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Fonts
 
+# PrebuiltApks
+PRODUCT_PACKAGES += \
+    ViaBrowser \
+    Phonograph \
+    WallpaperPickerGoogle

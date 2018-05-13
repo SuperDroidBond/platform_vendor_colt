@@ -121,3 +121,7 @@ PRODUCT_PACKAGES += \
     ViaBrowser \
     Phonograph \
     WallpaperPickerGoogle
+
+ #Colt Wallpapers
+ PRODUCT_PACKAGES += \
+    ColtPapers

@@ -120,7 +120,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     ViaBrowser \
     Phonograph \
-    WallpaperPickerGoogle
+    WallpaperPickerGoogle \
+    Gcam
 
  #Colt Wallpapers
  PRODUCT_PACKAGES += \

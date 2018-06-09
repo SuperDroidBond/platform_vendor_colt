@@ -12,11 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-COLT_TAG=Chilly
+COLT_TAG=Smoky
 
 # COLT RELEASE VERSION
 COLT_VERSION_MAJOR = 2
-COLT_VERSION_MINOR = 1
+COLT_VERSION_MINOR = 2
 COLT_VERSION_MAINTENANCE =
 
 VERSION := $(COLT_VERSION_MAJOR).$(COLT_VERSION_MINOR)$(COLT_VERSION_MAINTENANCE)
@@ -52,8 +52,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.colt.display.version=$(COLT_VERSION)
 
 # ColtOS theme
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.boot.vendor.overlay.theme=com.google.android.theme.stock
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    ro.boot.vendor.overlay.theme=com.google.android.theme.stock
 
 # ColtOS New Fonts
 PRODUCT_COPY_FILES += \
@@ -70,3 +70,6 @@ PRODUCT_COPY_FILES += \
 # Select FromHell as default theme
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.boot.vendor.overlay.theme=com.google.android.theme.FromHell
+
+# ColtOS Export Zip
+export COLT_TARGET_ZIP := $(COLT_VERSION).zip
